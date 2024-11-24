@@ -1,0 +1,47 @@
+---------------------><-----------------------><----------------------
+
+<|>  𝐇𝐞𝐥𝐥𝐨 𝐖𝐨𝐫𝐥𝐝 𝐏𝐫𝐨𝐠𝐫𝐚𝐦  <|>
+       If you want to show something as output , use the Println() function.
+
+    𝙹𝚊𝚟𝚊 𝚌𝚘𝚍𝚎 -->> class Main
+                    {
+                      public static void main(String []args )
+                      {
+                        System.out.println("Hello World");
+                      }
+                    }      /output = Hello World
+
+           #It is single line of code "Hello World".
+
+---------------------><-----------------------><----------------------
+
+<|>  𝐂𝐨𝐦𝐦𝐞𝐧𝐭𝐬 𝐢𝐧 𝐉𝐚𝐯𝐚 𝐜𝐨𝐝𝐞  <|>
+         You can comment in Java code Using ( / )Slash.
+
+                It enhance the readability and maintainability of code. If / include before code,
+                They are ignored by the java interpreter during execution.
+
+      𝙅𝙖𝙫𝙖 𝙘𝙤𝙙𝙚 >> 
+                   class Main
+                   {
+                     public static void main(String []args)
+                     {
+                       int x = 10;   / int variable
+                       int y = 20;   / int variable
+                       System.out.println(x + y);
+                     }
+                   }
+                        /Output = 30
+
+    >> 𝑶𝒏𝒆 𝒍𝒊𝒏𝒆 𝒄𝒐𝒎𝒎𝒆𝒏𝒕 = / use a slash.
+
+    >> 𝑴𝒖𝒍𝒕𝒊 𝒍𝒊𝒏𝒆 𝒄𝒐𝒎𝒎𝒆𝒏𝒕 = /* use slash star and close with star slash. */
+
+-------------------------------><-----------------------------><------------------------------
+
+
+
+
+
+
+
