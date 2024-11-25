@@ -1,0 +1,56 @@
+-----------------------------><-------------------------------><--------------------------------
+
+<|>  𝐃𝐚𝐭𝐚 𝐓𝐲𝐩𝐞 𝐨𝐟 𝐉𝐚𝐯𝐚  <|>
+          It is the classification of data items in programming.
+        >> Variable store the different types of data/value so it is important to known about which data types of value store by variable.
+
+ <::> 𝙅𝙖𝙫𝙖 𝙙𝙖𝙩𝙖 𝙩𝙮𝙥𝙚 -->>  
+         :: Java writes a code with data types and value.
+         :: Java has different text type(numeric , alpha , character), each text contain different data types.
+
+   <::> 𝐃𝐚𝐭𝐚 𝐭𝐲𝐩𝐞𝐬 𝐭𝐞𝐥𝐥𝐬 𝐈𝐧𝐟𝐨𝐫𝐦𝐚𝐭𝐢𝐨𝐧 <|>
+
+        >> The Size of Memory Location.
+        >> The maximum & minimun value of range that can store in Memory location.
+        >> Different types of operation done on memory location.
+
+---------------------------><--------------------------------------><------------------------------
+
+<|>  𝐓𝐲𝐩𝐞𝐬 𝐨𝐟 𝐃𝐚𝐭𝐚 𝐓𝐲𝐩𝐞  <|>    
+             1. Primitive Data type         2. Non-primitive data types
+
+  <.𝟏.> 𝙋𝙧𝙞𝙢𝙞𝙩𝙞𝙫𝙚 𝘿𝙖𝙩𝙖 𝙩𝙮𝙥𝙚𝙨 -->>
+             > Primitive data types are predefined by the java language.
+             > It provide by the java. Out of the box.
+             > It has 8 data types.
+
+                                  | <>〔8〕𝙅𝙖𝙫𝙖 𝑫𝒂𝒕𝒂 𝑻𝒚𝒑𝒆 <> |
+                        ......................|||||...................... 
+                       |:|                                              |:|                    
+                       \:/                                              \:/                    
+        .............𝗡𝘂𝗺𝗲𝗿𝗶𝗰..............                           𝗡𝗼𝗻-𝗡𝘂𝗺𝗲𝗿𝗶𝗰    
+       \:/                              \:/                           \/      
+   𝙄𝙣𝙩𝙚𝙜𝙚𝙧 𝙑𝙖𝙡𝙪𝙚                     𝙁𝙡𝙤𝙖𝙩𝙞𝙣𝙜 𝙑𝙖𝙡𝙪𝙚                     \> 7.char
+   \/                                \/                                   8. bool
+    \> 1. byte                        \> 5. float
+       2. short                          6. double 
+       3. int    
+       4. long
+
+<.𝟐.> 𝙉𝙤𝙣-𝙋𝙧𝙞𝙢𝙞𝙩𝙞𝙫𝙚 𝘿𝙖𝙩𝙖 𝙩𝙮𝙥𝙚𝙨 -->>
+        > It is created using classes and used to store complex objects.
+        > It provide by the programmer. Creating by own.
+        > It has 3 types.
+              \/
+               \> 1. String       2. Arrays       3. Object / User defined-class
+
+----------------------------><-----------------------------------><-----------------------------
+
+<|> 𝐑𝐚𝐧𝐠𝐞𝐬 𝐨𝐟 𝐃𝐚𝐭𝐚 𝐓𝐲𝐩𝐞𝐬 <|>
+
+
+
+
+
+
+
