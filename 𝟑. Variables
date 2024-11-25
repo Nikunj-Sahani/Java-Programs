@@ -11,7 +11,7 @@
 
         <><><><><><><><><><><>><><><><><><>><><>
 
---------------------<>-------------------------<>---------------------
+--------------------><-------------------------><---------------------
 
 <|> 𝐕𝐚𝐫𝐢𝐚𝐛𝐥𝐞𝐬 -->  It is a container that store value in a Java program.
                   In another word ,, Variables are place holder for storing data.
@@ -19,7 +19,7 @@
                      Example --> int value = 10 
                              ( 'Value' is a variable and hold data '10'.)
 
--------------------<>--------------------------<>-----------------------
+-------------------><--------------------------><-----------------------
 
 <|> 𝐕𝐚𝐫𝐢𝐚𝐛𝐥𝐞 𝐄𝐱𝐩𝐥𝐚𝐧𝐚𝐭𝐢𝐨𝐧 <|>
 
@@ -31,11 +31,37 @@
 
        >> 𝑫𝒆𝒄𝒍𝒂𝒓𝒂𝒕𝒊𝒐𝒏 --> Announce a variable usually when begins your program. (When you explain variable).
 
---------------------------<>---------------------------------<>----------------------------
+--------------------------><---------------------------------><----------------------------
+
+<|> 𝐍𝐚𝐦𝐢𝐧𝐠 𝐨𝐟 𝐕𝐚𝐫𝐢𝐚𝐛𝐥𝐞𝐬 <|>
+       A set of rules for naming a Java variables.
+
+          >> A variable name must start with a letter , underscore character.
+          >> A variable cannot start with a number.
+          >> A variable name can only contain alpha-numeric characters and underscore ( 0-9 , A - z and _ ).
+          >> Variable name are case sensitive ( Age , age , AGE - Different three variable).
+
+            -- Example of Variables --
+
+        <> 𝑽𝒂𝒍𝒊𝒅 𝑽𝒂𝒓𝒊𝒂𝒃𝒍𝒆𝒔 𝑵𝒂𝒎𝒆𝒔 ---> 
+
+               :: int Valid_num = 10   / Valid_Num = 10
+               :: int valid_num = 20   / valid_Num = 20
+               :: int _Validnum = 30
+               :: int Validnum1 = 40
+               :: int validnum2 = 50
+               :: int valid = 10    /  Valid = 10
+
+         <> I𝒏𝒗𝒂𝒍𝒊𝒅 𝑽𝒂𝒓𝒊𝒂𝒃𝒍𝒆𝒔 𝑵𝒂𝒎𝒆𝒔 ---> 
+           
+               :: int 1Valid_num = 10 
+               :: int 2validnum = 20 
+               :: int 3_Validnum = 30
+
+ Note-->> I use int here, Same variable name with all data type, like string, float, long, etc.
 
 
-
-
+--------------------------><---------------------------------><----------------------------
 
 
 
