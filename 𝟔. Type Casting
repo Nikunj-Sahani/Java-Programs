@@ -1,0 +1,15 @@
+----------------><------------------><--------------------
+
+<|>  𝐓𝐲𝐩𝐞 𝐂𝐚𝐬𝐭𝐢𝐧𝐠 / 𝐃𝐚𝐭𝐚 𝐓𝐲𝐩𝐞 𝐂𝐨𝐧𝐯𝐞𝐫𝐬𝐢𝐨𝐧  <|>
+       :: It is a process of convert a variable from one data type to another data type.
+       :: Two types of type casting.
+
+   :𝟏: 𝙄𝙢𝙥𝙡𝙞𝙘𝙞𝙩 𝙏𝙮𝙥𝙚 𝘾𝙖𝙨𝙩𝙞𝙣𝙜 (𝙒𝙞𝙙𝙚𝙣𝙞𝙣𝙜)::--
+          :: Automatic Conversion
+          :: It converts a smaller data type to larger one.
+
+   :𝟐: 𝙀𝙭𝙥𝙡𝙞𝙘𝙞𝙩 𝙏𝙮𝙥𝙚 𝘾𝙖𝙨𝙩𝙞𝙣𝙜 (𝙉𝙖𝙧𝙧𝙤𝙬𝙞𝙣𝙜) ::--
+          :: Manually conversion
+          :: It converts a larger data type to smaller one.
+
+----------------><----------------><--------------------
