@@ -8,8 +8,54 @@
           :: Automatic Conversion
           :: It converts a smaller data type to larger one.
 
+    𝙹𝚊𝚟𝚊 𝙲𝚘𝚍𝚎 -->>
+          class Main 
+          {
+             public static void main(String[] args) 
+             {
+               int x = 1000;
+               long l = x;
+               System.out.println(x);
+             }
+           }
+
    :𝟐: 𝙀𝙭𝙥𝙡𝙞𝙘𝙞𝙩 𝙏𝙮𝙥𝙚 𝘾𝙖𝙨𝙩𝙞𝙣𝙜 (𝙉𝙖𝙧𝙧𝙤𝙬𝙞𝙣𝙜) ::--
           :: Manually conversion
           :: It converts a larger data type to smaller one.
 
+    𝙹𝚊𝚟𝚊 𝙲𝚘𝚍𝚎 -->>
+          class Main 
+          {
+             public static void main(String[] args) 
+             {
+               int x = 500;
+               byte b = (byte)x;
+               System.out.println(x);
+             }
+           }
+
+if you do without manual data type , output is lossy.
+check out with this code.
+
+          class Main 
+          {
+             public static void main(String[] args) 
+             {
+               int x = 500;
+               byte b = x;
+               System.out.println(x);
+             }
+           }
+
+// output you got with lossy conversion.
+
 ----------------><----------------><--------------------
+
+
+
+
+
+
+
+
+
