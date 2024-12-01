@@ -1,1 +1,112 @@
+----------------------><------------------><--------------------
+
+|><| 𝐖𝐡𝐚𝐭 𝐢𝐬 𝐒𝐜𝐚𝐧𝐧𝐞𝐫? |><|
+       >> The simple and easy method to read the input of user by Scanner.
+       >> The 'Scanner' class is part of the 'java.util' package and is commonly used for reading input.
+
+<|> 𝙲𝚘𝚖𝚖𝚘𝚗 𝚄𝚜𝚎 𝙲𝚊𝚜𝚎𝚜 𝚘𝚏 𝚂𝚌𝚊𝚗𝚗𝚎𝚛 -->>
+        >> Reading Input from the User (Console)
+        >> Reading from a File
+        >> Parsing Strings
+
+--------------------><------------------------><---------------------
+
+|><| 𝐇𝐨𝐰 𝐭𝐨 𝐔𝐬𝐞 𝐭𝐡𝐞 𝐒𝐜𝐚𝐧𝐧𝐞𝐫 𝐂𝐥𝐚𝐬𝐬 |><|
+
+   :: Import this code in starting 
+        >> 𝙞𝙢𝙥𝙤𝙧𝙩 𝙟𝙖𝙫𝙖.𝙪𝙩𝙞𝙡.𝙎𝙘𝙖𝙣𝙣𝙚𝙧;
+
+   :: Creating a Scanner Object
+        >> 𝙎𝙘𝙖𝙣𝙣𝙚𝙧 𝙨𝙘𝙖𝙣𝙣𝙚𝙧 = 𝙣𝙚𝙬 𝙎𝙘𝙖𝙣𝙣𝙚𝙧(𝙎𝙮𝙨𝙩𝙚𝙢.𝙞𝙣);
+
+   :: 𝑹𝒆𝒂𝒅𝒊𝒏𝒈 𝑰𝒏𝒑𝒖𝒕
+        >> Below are examples of how to read different types of input:
+    𝙲𝚘𝚍𝚎 -->>
+        Scanner sc = new Scanner(System.in);
+        int x = sc.nextInt();      //input = 10
+        int y = sc.nextInt();      //input = 5
+        float a = sc.nextFloat();  //1.5
+        String z = sc.next();      //Hello
+
+--------------------><------------------------><---------------------
+
+ |><| 𝙎𝙘𝙖𝙣𝙣𝙚𝙧 𝙨𝙘𝙖𝙣𝙣𝙚𝙧 = 𝙣𝙚𝙬 𝙎𝙘𝙖𝙣𝙣𝙚𝙧(𝙎𝙮𝙨𝙩𝙚𝙢.𝙞𝙣); |><|
+               \/
+           Object Name
+
+      >> You can name the object anything.
+      >> Here is Scanner.
+      >> Apply the method as name of object.
+      >> Scanner scanner = new Scanner
+           :: Code = scanner.nextDatatype
+
+       >> If you can change the object name.
+       >> Scanner sc = new Scanner
+           :: Code = sc.nextDatatype
+
+   :|: You can check below how i apply with sc object.
+   ________________________________________________________________
+   | 𝐃𝐚𝐭𝐚 𝐓𝐲𝐩𝐞 |><|    𝐌𝐞𝐭𝐡𝐨𝐝      |><|     𝐄𝐱𝐚𝐦𝐩𝐥𝐞              |
+   |"""""""""""""|"""""""""""""""""""|""""""""""""""""""""""""""""|
+   |    byte     |    nextByte()     |  byte b = sc.nextByte();   |   
+   |-------------|-------------------|----------------------------|
+   |    short    |    nextShort()    |  short s = sc.nextShort(); |  
+   |-------------|-------------------|----------------------------|
+   |    int      |    nextint()      |  int i = sc.nextInt();     |
+   |-------------|-------------------|----------------------------|
+   |    long     |    nextLong()     |  long l = sc.nextLong();   |
+   |-------------|-------------------|----------------------------|
+   |    float    |    nextFloat()    |  float f = sc.nextFloat(); |  
+   |-------------|-------------------|----------------------------|
+   |    double   |    nextDouble()   | double d = sc.nextDouble();|
+   |-------------|-------------------|----------------------------|
+   |    String   |    next()         |  String s = sc.next();      \
+   |-------------|-------------------|------------------------------\
+   |    boolean  |    nextboolean()  |  Bolean b = sc.nextBoolean(); \
+   |-------------|-------------------|--------------------------------|
+   |    char     |next().charAt(num) |  char c = sc.next().charAt(2)  |
+   |-------------|-------------------|--------------------------------|
+   |'''''''''''''|'''''''''''''''''''|''''''''''''''''''''''''''''''''|
+
+-------------------------><------------------------------><---------------------------
+
+𝑱𝒂𝒗𝒂 𝑪𝒐𝒅𝒆  -->> Compiling the all data types to better understand.
+  \/ Begins-- 
+import java.util.Scanner;   //import this line always for scanner.
+
+class Main 
+{
+    public static void main(String[] args) 
+    {
+        Scanner sc = new Scanner(System.in);
+        
+        byte b = sc.nextByte();        //input = 5
+        short s = sc.nextShort();      //input = 10
+        int i = sc.nextInt();          //input = 50
+        long l = sc.nextLong();        //input = 400
+        float f = sc.nextFloat();      //input = 6.8
+        double d = sc.nextDouble();    //input = 93.5 
+        
+        String S = sc.next();          //input = Hello
+        char c = sc.next().charAt(4);  //input = Nikunj
+        Boolean B = sc.nextBoolean();  //input = true
+
+        System.out.println("Byte Value = " + b);      //output - 5
+        System.out.println("Short Value = " + s);     //output - 10
+        System.out.println("Int Value = " + i);       //output - 50
+        System.out.println("Long Value = " + l);      //output - 400
+        System.out.println("Float Value = " + f);     //output - 6.8
+        System.out.println("Double Value = " + d);    //output - 93.5
+        System.out.println("String Value = " + S);    //output - Hello
+        System.out.println("Char Value = " + c);      //output - n
+        System.out.println("Boolean Value = " + B);   //output - true
+    }
+}
+
+   |::| Run this code in Java compiler and check how it worked.
+
+-------------------------><------------------------------><---------------------------
+
+
+
 
