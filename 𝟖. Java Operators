@@ -1,4 +1,33 @@
 ---------------><-------------------><-----------------
 
- |><| 𝐉𝐚𝐯𝐚 𝐎𝐩𝐞𝐫𝐚𝐭𝐨𝐫𝐬 |><|
-        >> 
+|><| 𝐉𝐚𝐯𝐚 𝐎𝐩𝐞𝐫𝐚𝐭𝐨𝐫𝐬 |><|
+        >> In Java, operators are special symbols or keywords used to perform operations on variables and values.
+
+<|> 𝐓𝐲𝐩𝐞𝐬 𝐨𝐟 𝐎𝐩𝐞𝐫𝐚𝐭𝐨𝐫 <|>
+      >> It supoorts a wide range of operators, which can be categorized into different groups based on their functionality.
+
+          :: Arithmetic Operator
+          :: Assignment operator
+          :: Logical operator
+          :: Bitwise operator
+          :: Comparison operator
+
+-------------------><-----------------------><--------------------
+
+ |< 𝟏 >| 𝐀𝐫𝐢𝐭𝐡𝐦𝐞𝐭𝐢𝐜 𝐎𝐩𝐞𝐫𝐚𝐭𝐨𝐫 <|>
+         >> Used to perform basic mathematical operations.
+
+ |< 𝟐 >| 𝐀𝐬𝐬𝐢𝐠𝐧𝐦𝐞𝐧𝐭 𝐨𝐩𝐞𝐫𝐚𝐭𝐨𝐫 <|>
+         >> Used to assign values to variables.
+
+ |< 𝟑 >| 𝐋𝐨𝐠𝐢𝐜𝐚𝐥 𝐨𝐩𝐞𝐫𝐚𝐭𝐨𝐫 <|>
+         >> Used to combine conditional statements.
+
+ |< 𝟒 >| 𝐁𝐢𝐭𝐰𝐢𝐬𝐞 𝐨𝐩𝐞𝐫𝐚𝐭𝐨𝐫 <|>
+         >> Operate on binary representations of numbers.
+
+ |< 𝟓 >| 𝐂𝐨𝐦𝐩𝐚𝐫𝐢𝐬𝐨𝐧 𝐨𝐩𝐞𝐫𝐚𝐭𝐨𝐫 <|>
+         >> Used to compare two values. They return either True or False.
+         >> Known as Relational Operator.
+
+-------------------><-----------------------><--------------------
