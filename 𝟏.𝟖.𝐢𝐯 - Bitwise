@@ -4,3 +4,51 @@
          >> Used to perform bit-level operations.
          >> Operate on binary representations of numbers.
 
+   __________________________________________________________________
+   | 𝐎𝐩𝐞𝐫𝐚𝐭𝐨𝐫 |><|      𝐃𝐞𝐬𝐜𝐫𝐢𝐩𝐭𝐢𝐨𝐧      |><|     𝐄𝐱𝐚𝐦𝐩𝐥𝐞            |
+   |"""""""""""|""""""""""""""""""""""""""|""""""""""""""""""""""""""|
+1. |     &     |       Bitwise AND        |  a = 5 (Binary -  0101)  |
+   |-----------|--------------------------|  b = 3 (Binary -  0011)  |
+   | both bits must be 1 to result in 1.  |  result = a & b = 0001   |
+   |                                      |  result = 1 in decimal   |
+   |><><><><><><><><><><><><><><><><><>><><><><><><><><><><><><><><><|
+   ___________________________________________________________________
+2. |     |     |       Bitwise OR         |  a = 5 (Binary -  0101)  | 
+   |-----------|--------------------------|  b = 3 (Binary -  0011)  |
+   |  One bit must be 1 to result in 1.   |  result = a | b = 0111   |
+   |                                      |  result = 7 in decimal   |
+   |><><><><><><><><><><><><><><><><><>><><><><><><><><><><><><><><><|
+   ___________________________________________________________________
+3. |     ^     |       Bitwise XOR        |  a = 5 (binary -  0101)  |
+   |-----------|--------------------------|  b = 3 (Binary -  0011)  |
+   | bit must be different to result in 1.|  result = a ^ b = 0110   |
+   |                                      |  result = 6 in decimal   |
+   |><><><><><><><><><><><><><><><><><>><><><><><><><><><><><><><><><|
+   ___________________________________________________________________
+4. |     ~     |       Bitwise NOT        |   a = 5 (Binary - 0101)  |
+   |-----------|--------------------------|   result = -(a + 1)      |
+   | It’s equivalent to -(n+1) for        |   result = -(0101 + 1)   |
+   |  signed integers.                    |   result = -6 in decimal |
+   |><><><><><><><><><><><><><><><><><>><><><><><><><><><><><><><><><|
+   ___________________________________________________________________
+5. |    <<     |    Bitwise left Shift    |   a = 5 (Binary - 0101)  |
+   |-----------|--------------------------|   result = a << 1        |
+   | Each shift is equivalent to          |   result = 1010          |
+   |    multiplying by 2                  |   result = 10 in decimal |
+   |><><><><><><><><><><><><><><><><><>><><><><><><><><><><><><><><><|
+   ___________________________________________________________________
+6. |    >>     |    Bitwise right Shift   |   a = 5 (Binary - 0101)  |
+   |-----------|--------------------------|   result = a >> 1        |
+   | For positive numbers, the leftmost   |   result = 0010          |
+   |  bit is filled with 0                |   result = 2 in decimal  |
+   |><><><><><><><><><><><><><><><><><>><><><><><><><><><><><><><><><|
+
+
+ 7. Unsigned Right Shift (>>>)
+    >> Shifts the bits to the right, filling the leftmost bits with 0. Does not preserve the sign bit.
+
+    int a = -10;           // Binary representation depends on two's complement
+    int result = a >>> 1;  // Result is a large positive number
+
+--------------------><-----------------------><------------------------
+
