@@ -1,0 +1,68 @@
+----------------------><-----------------------><----------------------
+
+|< 𝟔 >| 𝐔𝐧𝐚𝐫𝐲 𝐎𝐩𝐞𝐫𝐚𝐭𝐨𝐫 <|>
+         >> Unary operators work on a single operand and perform operations 
+         >> such as incrementing, decrementing, negating, or inverting a value. 
+
+      a = 5;
+   _____________________________________________________________________________
+   | 𝐎𝐩𝐞𝐫𝐚𝐭𝐨𝐫 |><|        𝐃𝐞𝐬𝐜𝐫𝐢𝐩𝐭𝐢𝐨𝐧        |><|  𝐄𝐱𝐚𝐦𝐩𝐥𝐞 |><|  𝐄𝐪𝐮𝐢𝐯𝐚𝐥𝐞𝐧𝐭 𝐭𝐨  |
+   |"""""""""""|""""""""""""""""""""""""""""""|"""""""""""""|""""""""""""""""""|
+   |     +     | Unary plus (positive value)  |     +a      |      a = 5       |
+   |-----------|------------------------------|-------------|------------------|
+   |     -     | Unary minus (negative value) |     -a      |      a = -5      |
+   |-----------|------------------------------|-------------|------------------|
+   |    ++     |    Increment (pre/post)      |  ++a , a++  |      a = 6       |
+   |-----------|------------------------------|-------------|------------------|
+   |    --     | 	  Decrement (pre/post)      |  --a , a--  |      a = 4       |
+   |-----------|------------------------------|-------------|------------------|
+   |    !      |     Logical complement       |     !a      |   !true = false  |
+   |-----------|------------------------------|-------------|------------------|
+   |    ~      |     Bitwise complement       |     ~a      |      a = -6      |
+   |-----------|------------------------------|-------------|------------------| 
+   |'''''''''''|''''''''''''''''''''''''''''''|'''''''''''''|''''''''''''''''''|
+
+--------------------------><---------------------------------><-----------------------------
+
+𝘿𝙚𝙩𝙖𝙞𝙡𝙚𝙙 𝙀𝙭𝙖𝙢𝙥𝙡𝙚𝙨 ::
+
+  :: 𝑰𝒏𝒄𝒓𝒆𝒎𝒆𝒏𝒕 𝑶𝒑𝒆𝒓𝒂𝒕𝒐𝒓 (++) ::--
+
+     >> 𝙿𝚛𝚎-𝙸𝚗𝚌𝚛𝚎𝚖𝚎𝚗𝚝 :- The value is incremented before it is used.
+
+         int a = 5;
+         int b = ++a;             // First increment 'a', then assign to 'b'.
+         System.out.println(a);   // Output: 6
+         System.out.println(b);   // Output: 6
+
+     >> 𝙿𝚘𝚜𝚝-𝙸𝚗𝚌𝚛𝚎𝚖𝚎𝚗𝚝 :- The value is used before it is incremented.
+
+         int a = 5;
+         int b = a++;             // First assign 'a' to 'b', then increment 'a'.
+         System.out.println(a);   // Output: 6
+         System.out.println(b);   // Output: 5
+
+  :: 𝑫𝒆𝒄𝒓𝒆𝒎𝒆𝒏𝒕 𝑶𝒑𝒆𝒓𝒂𝒕𝒐𝒓 (--) ::--
+
+     >> 𝙿𝚛𝚎-𝙳𝚎𝚌𝚛𝚎𝚖𝚎𝚗𝚝 :- The value is decremented before it is used.
+
+          int a = 5;
+          int b = --a;              // First decrement 'a', then assign to 'b'.
+          System.out.println(a);    // Output: 4
+          System.out.println(b);    // Output: 4
+
+     >> 𝙿𝚘𝚜𝚝-𝙳𝚎𝚌𝚛𝚎𝚖𝚎𝚗𝚝 :- The value is used before it is decremented.
+
+          int a = 5;
+          int b = a--;             // First assign 'a' to 'b', then decrement 'a'.
+          System.out.println(a);   // Output: 4
+          System.out.println(b);   // Output: 5
+
+
+--------------------------><---------------------------------><-----------------------------
+
+
+
+
+
+
