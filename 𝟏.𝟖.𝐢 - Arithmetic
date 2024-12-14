@@ -20,3 +20,59 @@
 
 ---------------------><-------------------------><--------------------
 
+|<>| 𝐏𝐫𝐚𝐜𝐭𝐢𝐜𝐚𝐥 𝐜𝐨𝐝𝐞 -->>
+
+// This is the method to print the value with Comments to clear vision. Actually what's done by you.
+
+class Arithmetic
+{
+    public static void main (String []args )
+    {
+        int a = 10;
+        int b = 5;
+
+        //Addition
+        int Addition = a + b;
+        System.out.println("Addtion = " + Addition);
+
+        //Substraction
+        int Substraction = a - b;
+        System.out.println("Substraction = " + Substraction);
+
+        //Multiplication
+        int Multiplication = a * b;
+        System.out.println("Multiplication = " + Multiplication);
+
+        //Division
+        int Division = a / b;
+        System.out.println("Division = " + Division);
+    }
+}
+
+---------------------><-------------------------><----------------------
+
+Easy print by only code ---
+// This is the method to print the value only with determined input.
+
+class Main
+{
+    public static void main (String []args )
+    {
+        int a = 10;
+        int b = 5;
+
+        //Addition
+        System.out.println(a + b);
+
+        //Substraction
+        System.out.println(a -b);
+
+        //Multiplication
+        System.out.println(a * b);
+
+        //Division
+        System.out.println( a / b);
+    }
+}
+
+---------------------><-------------------------><----------------------
