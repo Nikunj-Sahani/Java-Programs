@@ -62,6 +62,32 @@
 
 --------------------------><---------------------------------><----------------------------
 
+|><| 𝐕𝐚𝐫𝐢𝐚𝐛𝐥𝐞 𝐢𝐧 𝐏𝐫𝐚𝐜𝐭𝐢𝐜𝐚𝐥 𝐜𝐨𝐝𝐞 -->>
+
+class Variable
+{
+    public static void main (String []args )
+    {
+        int number = 5;        //
+        int number_2 = 10;    //
+        int Number = 15;     //   These are valid variable
+        int NUM = 20;       //
+
+        String Person_name = "Java";     //
+        String person_name = "java";     //  These are valid variable
+        String _person = "java";         //
+
+  //      int 2num = 10;         //
+  //      Number = 15;           //   These are not valid variable
+ //       int 1_person = 20;     //
+
+    }
+}
+
+
+--------------------------><---------------------------------><----------------------------
+
+
 
 
 
