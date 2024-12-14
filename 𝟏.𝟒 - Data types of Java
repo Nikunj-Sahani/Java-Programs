@@ -118,10 +118,40 @@
 
 ----------------------------><-----------------------------------><-----------------------------
 
+|><| 𝐃𝐚𝐭𝐚 𝐭𝐲𝐩𝐞 𝐢𝐧 𝐏𝐫𝐚𝐜𝐭𝐢𝐜𝐚𝐥 𝐜𝐨𝐝𝐞 -->>
+
+class Main
+{
+    public static void main (String []args )
+    {
+        System.out.println("Hello World");
+
+        int i = 5;
+        System.out.println(i);
+
+        char c = 'A';
+        System.out.println(c);
+
+        boolean bool = true;
+        System.out.println(bool);
+
+        byte b = 120;
+        System.out.println(b);
+
+        float f = 1.2f;
+        System.out.println(f);
+
+        double d = 2.8;
+        System.out.println(d);
+
+        short s = 2000;
+        System.out.println(s);
+
+        long l = 500000000000000l;
+        System.out.println(l);
+    }
+}
 
 
-
-
-
-
+----------------------------><-----------------------------------><-----------------------------
 
