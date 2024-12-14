@@ -49,13 +49,35 @@ check out with this code.
 
 // output you got with lossy conversion.
 
-----------------><----------------><--------------------
+------------------><------------------><----------------------
+
+|<>| 𝐏𝐫𝐚𝐜𝐭𝐢𝐜𝐚𝐥 𝐜𝐨𝐝𝐞 -->>
+
+ class Main
+ {
+     public static void main (String []args )
+     {
+         // It is widening type casting ,, It convert smaller to larger.
+              int i = 20;
+              long l = i;
+
+         // It is Explicit type casting ,, It convert larger to smaller.
+              long x = 100;
+              int y = (int) x;
+
+         // It is a lossy conversion , you have care of it.
+              long w = 1000;
+              byte z = (byte) w;
+
+         System.out.println(l);
+         System.out.println(y);
+         System.out.println(z);
+
+     }
+ }
 
 
-
-
-
-
+------------------><------------------><----------------------
 
 
 
