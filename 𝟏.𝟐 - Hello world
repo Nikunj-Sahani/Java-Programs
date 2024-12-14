@@ -39,8 +39,37 @@
 
 -------------------------------><-----------------------------><------------------------------
 
+<|>  𝐂𝐨𝐦𝐦𝐞𝐧𝐭𝐬 𝐢𝐧 𝐉𝐚𝐯𝐚 𝐜𝐨𝐝𝐞  <|> >>>>
 
+class Main
+{
+    public static void main ( String []args )
+    {
+        String str = "I love JAVA";
+        System.out.println(str);
 
+        String str2 = "I am a Programmer";
+        System.out.println(str2);
+
+        System.out.println(str.charAt(4));
+        System.out.println(str2.charAt(7));
+
+        //To write a paragraph in line by line (use tripple quote)
+        String paragraph = """
+        Gone with the Wind
+        Saving Private Ryan
+        City of God
+        The Matrix
+        Braveheart
+        It's a Wonderful Life
+        Scarface
+        Seven Samurai
+        """;
+        System.out.println(paragraph);
+    }
+}
+
+-------------------><------------------><----------------------
 
 
 
