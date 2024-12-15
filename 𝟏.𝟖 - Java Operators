@@ -30,6 +30,8 @@
          >> Used to compare two values. They return either True or False.
          >> Known as Relational Operator.
 
- |<   >| 
+|< 𝟔 >| 𝐔𝐧𝐚𝐫𝐲 𝐎𝐩𝐞𝐫𝐚𝐭𝐨𝐫 <|>
+         >> Unary operators work on a single operand and perform operations 
+         >> such as incrementing, decrementing, negating, or inverting a value. 
 
 -------------------><-----------------------><--------------------
