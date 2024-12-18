@@ -11,6 +11,7 @@
           :: Logical operator
           :: Bitwise operator
           :: Comparison operator
+          :: Unary operator
 
 -------------------><-----------------------><--------------------
 
