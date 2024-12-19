@@ -78,6 +78,7 @@ There are 5 mains goals in creation of Java.
           :: Out is object of PrintStream class.
           :: Println() is call the method to print the string whatever you provided.
 
+
 ---------------------------><--------------------------><-----------------------------
 
 
