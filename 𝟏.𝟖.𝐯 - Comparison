@@ -30,22 +30,22 @@ Java 𝚌𝚘𝚍𝚎 -->>
    print("Comparison (Relational) Operators:");
 
 #Equal to
-print(f"a == c: {a == c}")  # True
+print(f"a == c: {a == c}")  #True
 
 #Not equal to
-print(f"a != b: {a != b}")  # True
+print(f"a != b: {a != b}")  #True
 
 #Greater than
-print(f"a > b: {a > b}")    # True
+print(f"a > b: {a > b}")    #True
 
 #Less than
-print(f"a < b: {a < b}")    # False
+print(f"a < b: {a < b}")    #False
 
 #Greater than or equal to
-print(f"a >= c: {a >= c}")  # True
+print(f"a >= c: {a >= c}")  #True
 
 #Less than or equal to
-print(f"a <= b: {a <= b}")  # False
+print(f"a <= b: {a <= b}")  #False
 
 -----------------><------------------><-----------------
 
