@@ -4,7 +4,7 @@
          >> Unary operators work on a single operand and perform operations 
          >> such as incrementing, decrementing, negating, or inverting a value. 
 
-      a = 5;
+      a = 5; //for all example
    _____________________________________________________________________________
    | 𝐎𝐩𝐞𝐫𝐚𝐭𝐨𝐫 |><|        𝐃𝐞𝐬𝐜𝐫𝐢𝐩𝐭𝐢𝐨𝐧        |><|  𝐄𝐱𝐚𝐦𝐩𝐥𝐞 |><|  𝐄𝐪𝐮𝐢𝐯𝐚𝐥𝐞𝐧𝐭 𝐭𝐨  |
    |"""""""""""|""""""""""""""""""""""""""""""|"""""""""""""|""""""""""""""""""|
