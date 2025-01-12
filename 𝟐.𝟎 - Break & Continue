@@ -1,0 +1,43 @@
+-------------------><----------------><------------------
+
+|><| 𝐁𝐫𝐞𝐚𝐤 & 𝐂𝐨𝐧𝐭𝐢𝐧𝐮𝐞 𝐒𝐭𝐚𝐭𝐞𝐦𝐞𝐧𝐭 |><|
+       <><><>><><><><><><><>
+
+ 𝟏. 𝐁𝐫𝐞𝐚𝐤 𝐒𝐭𝐚𝐭𝐞𝐦𝐞𝐧𝐭 :::---
+      >> The break statement is used to terminate the loop immediately.
+      >> The program resumes control at the next statement in the code.
+
+   For Example ;;;
+      class Main
+      {
+       public static void main(String[] args) {
+        for (int i = 0; i < 10; i++) {
+            if (i == 5) {
+                break; // Exit the loop when i equals 5
+            }
+            System.out.println("Value of i: " + i);
+        }                                //1 2 3 4
+
+-------------------><----------------><------------------
+
+ 𝟐. 𝐂𝐨𝐧𝐭𝐢𝐧𝐮𝐞 𝐒𝐭𝐚𝐭𝐞𝐦𝐞𝐧𝐭  :::---
+     >> The continue statement is used to skip the current iteration of the loop it continue with next.
+     >> It doesn't terminate the loop but forces the next iteration to begin immediately.
+
+   For Example ;;;
+     class Main {
+      public static void main(String[] args) {
+        for (int i = 0; i < 10; i++) {
+            if (i % 2 == 0) {
+                continue; // Skip even numbers
+            }
+            System.out.println("Value of i: " + i);
+        }                              //1 3 5 7 9
+
+
+-------------------><----------------><------------------
+
+
+
+
+
