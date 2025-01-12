@@ -1,0 +1,77 @@
+--------------><---------------><----------------
+
+|<>| 𝐋𝐨𝐨𝐩𝐬 𝐢𝐧 𝐉𝐚𝐯𝐚 |<>|
+      >> Loops in Java are control flow statements that execute a block of code repeatedly based on a given condition.
+      >> Java provides three main types of loops : 
+             > for   ,   > while   ,   > do-while. 
+
+---------------><-----------------><-------------------
+
+𝟏. 𝑭𝒐𝒓 𝑳𝒐𝒐𝒑 :::---
+    >> For loop is used for execute a lock of code a certain numbers of time.
+    >> It is recommended to use for loop when the exact number of iteration is known before.
+
+   Syntax ;;; 
+      for (initialization; condition; update)
+
+   For Example ;;;
+      <> If you want to print 1 to 10.
+            for(int i = 1; i <= 10; i++)
+
+---------------><-----------------><-------------------
+
+𝟐. 𝙒𝙝𝙞𝙡𝙚 𝙇𝙤𝙤𝙥 :::---
+     >> It is used to execute a specific block of code until a certain condition is found.
+     >> It is used when the number of iterations is not known in advance.
+
+
+   Syntax ;;; 
+      for (condition)
+
+   For Example ;;;
+      <>  Condition to check before each iteration
+           int i = 0;
+           while (i < 5) 
+           {
+              System.out.println(i);
+            i++;
+           }           // 0 1 2 3 4 (Got Before 5)
+
+---------------><-----------------><-------------------
+
+𝟑. 𝘿𝙤-𝙒𝙝𝙞𝙡𝙚 𝙇𝙤𝙤𝙥 :::---
+     >> It is similar to while loop, The body of do-while loop is executed once before the condition is checked.
+
+   Syntax ;;; 
+       do {
+         //Code to be executed
+       } while (condition);
+
+   For Example ;;;
+      int i = 0;
+      do {
+        System.out.println("Value of i: " + i);
+      i++;
+      } while (i < 5);
+
+---------------><-----------------><-------------------
+
+𝟒. 𝙁𝙤𝙧-𝙀𝙖𝙘𝙝 𝙇𝙤𝙤𝙥 :::---
+     >> It is used to iterate over arrays or collections of elements one by one.
+     >> It is also called enhanced for Loop.
+  
+   Syntax ;;; 
+     for (dataType element : arrayOrCollection) {
+       // Code to be executed
+       }
+
+   For Example ;;;
+      int[] array = {1, 2, 3, 4, 5};
+      for (int num : array) {
+       System.out.println(num);
+      }
+
+------------------><--------------------><--------------------
+
+
+
