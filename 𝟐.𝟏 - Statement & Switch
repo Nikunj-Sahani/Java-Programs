@@ -1,0 +1,108 @@
+------------------><-----------------><--------------------
+
+|><| 𝐢𝐟-𝐞𝐥𝐬𝐞 𝐬𝐭𝐚𝐭𝐞𝐦𝐞𝐧𝐭 |><|
+       >> if-statement is used to test a condition. It checks boolean condition.
+       >> true or false
+
+   Syntax ::--
+     if (condition) {
+         // Code to execute if the condition is true
+      } else {
+       // Code to execute if the condition is false
+      }
+
+ 𝙵𝚘𝚛 𝙴𝚡𝚊𝚖𝚙𝚕𝚎 ::--
+  class Main {
+    public static void main(String[] args) {
+        int number = 10;
+
+        if (number > 15) {
+            System.out.println("True");
+        } else {
+            System.out.println("False");
+               }
+          }
+       }
+
+    >> The if statement executes the block of code if the condition evaluates to true.
+    >> The else block is optional and is executed when the condition evaluates to false.
+
+---------------------><--------------------><---------------------
+
+|><| 𝐒𝐰𝐢𝐭𝐜𝐡 𝐒𝐭𝐚𝐭𝐞𝐦𝐞𝐧𝐭 |><|
+       >> A switch statement in Java is used for decision-making based on the value of a variable or an expression. 
+       >> It allows you to execute one block of code out of multiple options, based on the matching case.
+
+1. 𝙵𝚘𝚛 𝙴𝚡𝚊𝚖𝚙𝚕𝚎 ::-- Basic Switch
+
+  class Main {
+    public static void main(String[] args) {
+        int day = 3;
+
+        switch (day) {
+            case 1:
+                System.out.println("Monday");
+                break;
+            case 2:
+                System.out.println("Tuesday");
+                break;
+            case 3:
+                System.out.println("Wednesday");
+                break;
+            case 4:
+                System.out.println("Thursday");
+                break;
+            case 5:
+                System.out.println("Friday");
+                break;
+            default:
+                System.out.println("Weekend");
+        }
+    }
+}
+
+2. 𝙵𝚘𝚛 𝙴𝚡𝚊𝚖𝚙𝚕𝚎 ::-- String Switch
+
+ class Main {
+    public static void main(String[] args) {
+        String color = "Red";
+
+        switch (color) {
+            case "Red":
+                System.out.println("You chose Red.");
+                break;
+            case "Green":
+                System.out.println("You chose Green.");
+                break;
+            case "Blue":
+                System.out.println("You chose Blue.");
+                break;
+            default:
+                System.out.println("Color not recognized.");
+        }
+    }
+}
+
+3. 𝙵𝚘𝚛 𝙴𝚡𝚊𝚖𝚙𝚕𝚎 ::-- Switch Without Break (Fallthrough)
+
+ class Main {
+    public static void main(String[] args) {
+        int number = 2;
+
+        switch (number) {
+            case 1:
+                System.out.println("Case 1");
+            case 2:
+                System.out.println("Case 2");
+            case 3:
+                System.out.println("Case 3");
+            default:
+                System.out.println("Default case");
+        }
+    }
+}
+
+---------------------><--------------------><---------------------
+
+
+
