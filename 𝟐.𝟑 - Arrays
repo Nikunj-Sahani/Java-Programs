@@ -1,0 +1,54 @@
+-------------------><-------------------><--------------------
+
+|<>|  𝐀𝐫𝐫𝐚𝐲𝐬  |<>|
+      >> Java array is a data structure that store data of the same type in a sequencial manner.
+      >> Arrays are fixed in size. You cannot add or remove elements once an array is created.
+      >> Arrays store elements contiguously in memory, ensuring fast access.
+      >> Use "java.util.ArrayList" if you need a resizable array.
+
+|><| 𝐓𝐲𝐩𝐞𝐬 𝐨𝐟 𝐀𝐫𝐫𝐚𝐲𝐬 𝐢𝐧 𝐉𝐚𝐯𝐚 |><|
+
+  𝚂𝚒𝚗𝚐𝚕𝚎-𝙳𝚒𝚖𝚎𝚗𝚜𝚒𝚘𝚗𝚊𝚕 𝙰𝚛𝚛𝚊𝚢 :- A linear list of elements.
+  𝙼𝚞𝚕𝚝𝚒-𝙳𝚒𝚖𝚎𝚗𝚜𝚒𝚘𝚗𝚊𝚕 𝙰𝚛𝚛𝚊𝚢 :- Arrays with more than one dimension (e.g., 2D or 3D arrays).
+
+𝙴𝚡𝚊𝚖𝚙𝚕𝚎  ::--
+
+  class Main {
+    public static void main(String[] args) {
+        // Declare and initialize an array
+        int[] numbers = new int[5];
+
+        // Assign values
+        numbers[0] = 10;
+        numbers[1] = 20;
+        numbers[2] = 30;
+        numbers[3] = 40;
+        numbers[4] = 50;
+
+        // Access and print elements
+        for (int i = 0; i < numbers.length; i++) {
+            System.out.println(numbers[i]);
+        }
+    }
+}
+
+-------------------><-------------------><--------------------
+
+𝙁𝙤𝙧-𝙀𝙖𝙘𝙝 𝙇𝙤𝙤𝙥 :::---
+     >> It is used to iterate over arrays or collections of elements one by one.
+     >> It is also called enhanced for Loop.
+  
+   Syntax ;;; 
+     for (dataType element : arrayOrCollection) {
+       // Code to be executed
+       }
+
+   For Example ;;;
+      int[] array = {1, 2, 3, 4, 5};
+      for (int num : array) {
+       System.out.println(num);
+      }
+
+-------------------><-------------------><--------------------
+
+
