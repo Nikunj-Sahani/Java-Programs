@@ -1,7 +1,30 @@
 -------------------><--------------------><----------------------
 
 |><| 𝐓𝐞𝐫𝐧𝐚𝐫𝐲 𝐎𝐩𝐞𝐫𝐚𝐭𝐨𝐫 |><|
-      >> 
-      >>
+      >> It is condensed form of if-else statement which evaluates a condition.
+      >> It execute the code based on evaluated conditions.
+      >> It evaluates a boolean expression and returns true & false.
+
+𝚂𝚢𝚗𝚝𝚊𝚡 ::--
+     result = (condition) ? value1 : value2;
+
+    > condition : A boolean expression.
+    >   value1  : The value returned if the condition is true.
+    >   value2  : The value returned if the condition is false.
+
+𝙴𝚡𝚊𝚖𝚙𝚕𝚎  ::--
+
+  class Main {
+    public static void main(String[] args) {
+        int number = 10;
+
+        // Using ternary operator
+        String result = (number > 5) ? "true" : "false";
+
+        System.out.println(result); // Output: Greater than 5
+      }
+   }
+ 
+-------------------><--------------------><----------------------
 
 
