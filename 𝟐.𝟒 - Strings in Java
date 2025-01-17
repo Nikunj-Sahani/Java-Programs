@@ -1,4 +1,33 @@
 ----------------><--------------------><-------------------
 
 |><| 𝐒𝐭𝐫𝐢𝐧𝐠 𝐢𝐧 𝐉𝐚𝐯𝐚 |><|
-      >> 
+      >> Strings in Java are objects that represent a sequence of characters.
+      >> They are one of the most commonly used data types and provide a wide range of features for manipulating text. 
+
+  >> All literal in java programs , such as "abc" are implemented as instance of class.
+
+        String s = "abc";
+        print(s);
+
+-------------------><-----------------------><----------------------
+
+|><| 𝐒𝐭𝐫𝐢𝐧𝐠 𝐏𝐨𝐨𝐥 |><|
+      >> The string pool is the area in Heap memory where String literal are stored.
+
+    String s1 = "abc"  \
+    String s2 = "abc"   \ _____  
+    String s3 = "def"   /"""""" >>>> Inside String Pool
+         s2 = "hello"  /
+
+   Using New keyword in String Pool
+       String s1 = "abc"
+       String s2 = new String("abc")     --->> Outside String Pool
+
+𝚆𝚛𝚒𝚝𝚝𝚎𝚗 𝚖𝚎𝚝𝚑𝚘𝚍 𝚒𝚜 𝚜𝚊𝚖𝚎 𝚋𝚞𝚝 𝚋𝚘𝚝𝚑 𝚊𝚛𝚎 𝚍𝚒𝚏𝚏𝚎𝚛𝚎𝚗𝚝-𝚍𝚒𝚏𝚏𝚎𝚛𝚎𝚗𝚝 𝚒𝚗 𝚂𝚝𝚛𝚒𝚗𝚐 𝚙𝚘𝚘𝚕.
+
+    s1.equals(s2)  --> This method make the same string pool.
+
+-------------------><---------------------><----------------------
+
+
+
