@@ -24,7 +24,6 @@
      >> It is used to execute a specific block of code until a certain condition is found.
      >> It is used when the number of iterations is not known in advance.
 
-
    Syntax ;;; 
       for (condition)
 
@@ -53,6 +52,7 @@
         System.out.println("Value of i: " + i);
       i++;
       } while (i < 5);
+
 
 -------------------><--------------------><----------------------
 
